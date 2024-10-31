@@ -1,0 +1,66 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  overflow-x: hidden;
+}
+.container{
+  display:flex;
+  margin: 25px;
+  align-items: center;
+  justify-content:center ;
+
+}
+
+
+.formfields{
+  display: flex;
+  gap:15px;
+
+}
+.createrecbtn{
+  padding-top:5px ;
+  padding-bottom:5px ;
+  padding-left:10px ;
+  padding-right:10px ;
+  cursor: pointer;
+  background: #ff2525;
+  color:white;
+  outline: none;
+  border: none;
+
+}
+.updatebtn{
+  padding-top:5px ;
+  padding-bottom:5px ;
+  padding-left:10px ;
+  padding-right:10px ;
+  margin-left: 5px;
+  cursor: pointer;
+  background: #ff2525;
+  color:white;
+  outline: none;
+  border: none;
+}
+
+.combinedata{
+  display:flex;
+  flex-direction: column;
+  gap:15px
+}
+
+.datauser{
+  display:flex;
+  gap: 15px;
+  align-items: center;
+  justify-content:center ;
+}
+.datahead{
+  display:flex;
+  gap:15px
+}
+
+.magicform{
+  position:fixed;
+  background: green;
+  padding: 25px
+}
